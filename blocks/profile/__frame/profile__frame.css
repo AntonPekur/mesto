@@ -1,0 +1,14 @@
+.profile__frame{
+  width: 150px;
+  height: 50px;
+  background-color: #000;
+  border: 2px solid #FFFFFF;
+  border-radius: 2px;
+  margin: 35px 0 35px 244px;
+}
+@media (max-width: 690px) {
+  .profile__frame{
+    width: 282px;
+    margin: 0;
+  }
+}

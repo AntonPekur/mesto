@@ -1,0 +1,9 @@
+.content__elements{
+  margin: 0 auto 67px;
+}
+
+@media (max-width: 690px) {
+  .content__elements{
+    margin: 0 auto 48px;
+  }
+}

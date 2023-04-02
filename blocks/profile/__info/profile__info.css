@@ -1,0 +1,15 @@
+.profile__info{
+  max-width: 336px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+
+}
+@media (max-width: 690px) {
+  .profile__info{
+    max-width: 282px;
+    margin: 26px auto 36px;
+  }
+}
