@@ -6,4 +6,9 @@
   background-size: cover;
   cursor: pointer;
   background-color: transparent;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.element__like:hover{
+  opacity: 50%;
 }

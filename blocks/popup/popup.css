@@ -1,0 +1,15 @@
+.popup {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0;
+  position: fixed;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  flex-direction: column;
+  gap: 8px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

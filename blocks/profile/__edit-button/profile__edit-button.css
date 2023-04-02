@@ -5,11 +5,23 @@
   border: 1px #ffffff solid;
   box-sizing: border-box;
   background-color: #0000;
+  cursor: pointer;
+  background-image: url(../../../images/карандаш.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10px;
+
 }
+
+.profile__edit-button:hover{
+  opacity: 60%;
+}
+
 @media (max-width: 690px) {
   .profile__edit-button{
     width: 18px;
     height: 18px;
+    background-size: 7.5px;
     margin: 0;
   }
 }
