@@ -8,13 +8,13 @@ let infoName = document.querySelector(".profile__info-name");
 let infoDes = document.querySelector(".profile__info-description");
 
 editButton.addEventListener('click', () => {
-    editPopup.classList.add('popup_open');
+    editPopup.classList.add('popup__open');
     InputName.value = infoName.textContent;
     InputDes.value = infoDes.textContent;
 });
 
 closePopup.addEventListener('click', () => {
-    editPopup.classList.remove('popup_open');
+    editPopup.classList.remove('popup__open');
 });
 
 function handleFormSubmit (evt) {
@@ -23,7 +23,7 @@ function handleFormSubmit (evt) {
     infoName.textContent = InputName.value;
     infoDes.textContent = InputDes.value;
 
-    editPopup.classList.remove('popup_open');
+    editPopup.classList.remove('popup__open');
 };
 
 editForm.addEventListener('submit', handleFormSubmit);
