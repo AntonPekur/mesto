@@ -5,6 +5,7 @@
   color: #FFFFFF;
   display: flex;
   flex-direction: column;
+  margin-top: 22px;
 
 }
 @media (max-width: 690px) {

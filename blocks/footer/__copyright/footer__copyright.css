@@ -8,3 +8,10 @@
   color: #545454;
   width: 100%;
 }
+
+@media (max-width: 690px) {
+  .footer{
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

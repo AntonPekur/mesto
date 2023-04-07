@@ -9,4 +9,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  padding-top: 22px;
+  padding-bottom: 28px;
+  margin: 0;
 }

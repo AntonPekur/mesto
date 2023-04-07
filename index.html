@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/index.css">
-    <script src="./index.js" defer></script>
+    <script src="./scripts/index.js" defer></script>
     <title>Mesto</title>
   </head>
   <body class="page">
@@ -21,49 +21,49 @@
           </div>
           <p class="profile__info-description">Исследователь океана</p>
         </div>
-        <button class="profile__add-button"></button>
+        <button class="profile__add-button" type="button"></button>
       </section>
       <section class="elements content__elements">
         <div class="element">
           <img class="element__mask-group" src="./images/Karach.jpg" alt="храм">
           <div class="element__group">
             <h2 class="element__text">Карачаевск</h2>
-            <button class="element__like"></button>
+            <button class="element__like" type="button"></button>
           </div>
         </div>
         <div class="element">
           <img class="element__mask-group" src="./images/El.jpg" alt="Гора Эльбрус">
           <div class="element__group">
             <h2 class="element__text">Гора Эльбрус</h2>
-            <button class="element__like"></button>
+            <button class="element__like" type="button"></button>
           </div>
         </div>
         <div class="element">
           <img class="element__mask-group" src="./images/dombai.jpg" alt="скала">
           <div class="element__group">
             <h2 class="element__text">Домбай</h2>
-            <button class="element__like"></button>
+            <button class="element__like" type="button"></button>
           </div>
         </div>
         <div class="element">
           <img class="element__mask-group" src="./images/El.jpg" alt="Гора Эльбрус">
           <div class="element__group">
             <h2 class="element__text">Гора Эльбрус</h2>
-            <button class="element__like"></button>
+            <button class="element__like" type="button"></button>
           </div>
         </div>
         <div class="element">
           <img class="element__mask-group" src="./images/dombai.jpg" alt="скала">
           <div class="element__group">
             <h2 class="element__text">Домбай</h2>
-            <button class="element__like"></button>
+            <button class="element__like" type="button"></button>
           </div>
         </div>
         <div class="element">
           <img class="element__mask-group" src="./images/Karach.jpg" alt="Храм">
           <div class="element__group">
             <h2 class="element__text">Карачаево-Черкесия</h2>
-            <button class="element__like"></button>
+            <button class="element__like" type="button"></button>
           </div>
         </div>
       </section>
@@ -75,9 +75,9 @@
       <div class="popup__content">
         <button class="popup__close" type="button"></button>
         <h3 class="popup__title">Редактировать профиль</h3>
-        <form class="popup__form">
-          <input class="popup__input popup__input_info_name" type="text" value="Жак-Ив Кусто">
-          <input class="popup__input popup__input_info_description" type="text" value="Исследователь океана">
+        <form class="popup__form" name="form">
+          <input class="popup__input popup__input_info_name" type="text" value="Жак-Ив Кусто" name="name">
+          <input class="popup__input popup__input_info_description" type="text" value="Исследователь океана" name="description">
           <button class="popup__save" type="submit">Сохранить</button>
         </form>
       </div>

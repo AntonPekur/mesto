@@ -10,6 +10,6 @@
 2. Grid Layout
 3. Адаптивность верстки под разные устройста
 
-## Ссылка на GitHub Pages: https://github.com/AntonPekur/mesto
+## Ссылка на GitHub Pages: https://antonpekur.github.io/mesto/
 
 ### Спасибо за Ваш вклад в меня :)
