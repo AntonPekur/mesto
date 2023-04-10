@@ -11,6 +11,7 @@
   background-size: 22px;
   cursor: pointer;
   padding: 0;
+  flex-shrink: 0
 }
 
 .profile__add-button:hover{
